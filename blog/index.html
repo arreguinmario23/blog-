@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/iconfont/material-icons.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Blog</title>
+    <div>Mario Alberto Arreguin Hernandez</div>
+</head>
+<body>
+    <nav class="navbar navbar-dark colorFondo">
+        <a class="navbar-brand" href="#">
+            <i class="material-icons">comment</i>
+            Blog
+        </a>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col"></div>
+            <div class="col">
+                <div class="card mt-5">
+                    <div class="card-header colorFondo colorTexto">
+                        Inicio de sesi&oacute;n
+                    </div>
+                    <div class="card-body">
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <div class="input-group-text">
+                                    <i class="material-icons align-middle">account_circle</i>
+                                </div>
+                            </div>
+                            <input type="text" name="user" id="user" 
+                            class="form-control" placeholder="Nombre de usuario">
+                        </div>
+
+                        
+                        <div class="input-group mt-3">
+                            <div class="input-group-prepend">
+                                <div class="input-group-text">
+                                    <i class="material-icons align-middle">https</i>
+                                </div>
+                            </div>
+                            <input type="password" name="pass" id="pass"
+                            class="form-control" placeholder="Contraseña">
+                        </div>
+
+                        <div class="alert alert-danger mt-1" role="alert" id="msgLogin">
+                            
+                        </div>
+
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn btn-primary" onclick="login();">Login</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col"></div>
+        </div>
+    </div>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
